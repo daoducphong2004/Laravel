@@ -11,6 +11,6 @@
     {{-- {{ $title }} --}}
     <br>
     đây là id: {{ $id }}
-    đây là id: {{ $id }}
+    đây là id: {{ $id2 }}
 </body>
 </html>
