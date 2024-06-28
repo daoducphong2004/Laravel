@@ -10,9 +10,8 @@
     <div style="background-color: aliceblue;height: 100px">
         <p>đây là header</p>
     </div>
-        6
-    <h1>Đây là trang index</h1>
-
+        
+    
     <div style="background-color: beige;height: 100px">
         <p>đây là footẻr</p>
     </div>

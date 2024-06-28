@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\TinController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,3 +17,6 @@ use Illuminate\Support\Facades\Route;
 
  Route::get('/', [TinController::class,'index']);
  Route::get('/tinmoi', [TinController::class,'tinmoi']);
+ Route::get('/xoatin/{a}',[TinController::class,'xoaTin']);
+
+ Route::get('categories/crud',[CategoryController::class,'crud']);

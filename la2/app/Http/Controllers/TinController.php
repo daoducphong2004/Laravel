@@ -22,4 +22,10 @@ class TinController extends Controller
         $data=$query->get();
         return view('tinmoi',['data'=>$data]);
     }
+    public function xoaTin($a){
+        $query=DB::table('tin')->where('id',$a)->delete();
+        //get all table tin
+        $query1=DB::table('tin')->get();
+        return view('tin',['data'=>$query1]);
+    }
 }
