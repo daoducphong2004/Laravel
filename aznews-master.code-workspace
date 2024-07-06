@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../aznews-master"
+		},
+		{
+			"path": "test1"
+		},
+		{
+			"path": "../../admin"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "admin"
+	}
+}

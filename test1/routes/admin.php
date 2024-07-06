@@ -9,7 +9,6 @@ use App\Models\User;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
-if(Auth::user())
 Route::prefix('admin')
     ->as('admin.')
     ->group(function () {
